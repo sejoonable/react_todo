@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'TTTtangsbudaejjigaeB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: 'TTTtangsbudaejjigaeB';
+}
+
+.king {
+  width: 1200px;
+  height: 800px;
+  
+  margin: auto;
+}
+
+.todoBox {
+  min-width: 250px;
+  border: 2px solid black;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.todoBox :hover {
+  border: 1px solid gray;
+}
+
+.submitBox {
+width: 500px; height: 50px;
+
+border-radius: 30px;
+border: 2px solid black;
+
+margin: 10px auto auto auto;
+
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+}
+
+.submit {
+border-radius: 10px;
+}
+
+.ing {
+  gap: 10px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
+
+
+  
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Done {
+  gap: 10px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboveing {
+  border: 2px solid black;
+}
+
+.aboveDone {
+  border: 2px solid black;
+}
+
+.jaemok {
+  height: 50%;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.naeyong {
+  height: 50%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: red;
+}
