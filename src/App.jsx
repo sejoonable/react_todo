@@ -87,7 +87,20 @@ function App() {
 
   return (
 <div>
+    
     <div className='king'>
+      <div>
+    <h3 style={
+      {
+        textAlign: 'left'
+      }
+    }>my todo-list</h3> 
+    <div style={
+      {
+        textAlign: 'right'
+      }
+    }>React</div>
+    </div>
       <div className='submitBox'>
         <span>제목 <input className='submit' value={jaemok} onChange={addjaemok} /></span>
         <span>내용 <input className='submit' value={naeyong} onChange={addnaeyong} /></span>
