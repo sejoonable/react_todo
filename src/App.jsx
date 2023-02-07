@@ -31,6 +31,9 @@ function App() {
     let id = "" + date.getHours() + date.getMinutes() + date.getSeconds() + date.getMilliseconds();
     const sowon = { id, isDone: false, jaemok, naeyong, }
     setingSowon([...ingSowon, sowon])
+
+    setjaemok("")
+    setnaeyong("")
   }
 
   //삭제 기능
@@ -83,7 +86,7 @@ function App() {
 
 
   return (
-
+<div>
     <div className='king'>
       <div className='submitBox'>
         <span>제목 <input className='submit' value={jaemok} onChange={addjaemok} /></span>
@@ -156,6 +159,7 @@ function App() {
         }
       </div>
 
+    </div>
     </div>
   );
 }
